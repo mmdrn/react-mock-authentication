@@ -197,7 +197,6 @@ const editProductHandler = http.put(
     product.price = Number(formData.get("price") as string);
     product.quantity = Number(formData.get("quantity") as string);
     product.updatedAt = Date.now().toString();
-    products.push(product);
 
     return HttpResponse.json<CreateProductResponseBody>({
       success: true,
