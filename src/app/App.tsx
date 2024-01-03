@@ -8,7 +8,6 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { createContext, useState } from "react";
-import TutorialDetails from "./routes/products/details";
 import Products from "./routes/products";
 import "./services/axios";
 import "./App.scss";
