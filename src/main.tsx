@@ -1,14 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./app/App.tsx";
-import { worker } from "./mocks/browser.ts";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './app/App.tsx'
+import { worker } from './mocks/browser.ts'
 
 if (import.meta.env.DEV) {
-  worker.start();
+    worker.start({
+        quiet: true
+    })
 }
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+ReactDOM.createRoot(document.getElementById('root')!).render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
+)
