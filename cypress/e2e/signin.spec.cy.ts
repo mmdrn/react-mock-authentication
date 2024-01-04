@@ -1,4 +1,4 @@
-describe('Signin and create product', () => {
+describe('Signin, Create new product, and Delete Product', () => {
     it('Visits signin page', () => {
         cy.visit(`/signin`)
 

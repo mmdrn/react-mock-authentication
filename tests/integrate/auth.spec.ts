@@ -19,8 +19,6 @@ describe('auth service', () => {
                 username: 'mohammadrn',
                 password: '12345678'
             })
-
-            console.debug('----------------->: ', result)
         })
     })
 })

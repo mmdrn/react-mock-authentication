@@ -1,30 +1,112 @@
-# React + TypeScript + Vite
+### Project Overview:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using React, TypeScript, Tailwind CSS, and React Query. Mock APIs have been implemented using the MSW library, and end-to-end tests are written using Cypress. Additionally, integration tests have been implemented using Jest.
 
-Currently, two official plugins are available:
+### Project Setup:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+2. **Run Development Server:**
+   To start the development server, use the following command:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. **Build Project:**
+   To build the project for production, use:
+   ```bash
+   npm run build
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+4. **Run End-to-End Tests:**
+   - To run e2e tests and view the actions in the browser:
+     ```bash
+     npm run test:e2e:open
+     ```
+   - To run e2e tests and see only the results:
+     ```bash
+     npm run test:e2e
+     ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+5. **Run Integration Tests:**
+   To execute the integration tests, use:
+   ```bash
+   npm run test:integrate
+   ```
+
+### Sample README.md File:
+
+```markdown
+# Project Name
+
+## Overview
+
+This project is a web application developed using React, TypeScript, Tailwind CSS, and React Query. It includes mock APIs implemented with the MSW library and features end-to-end tests using Cypress, as well as integration tests using Jest.
+
+## Getting Started
+
+Follow the steps below to set up and run the project on your local machine.
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
+Install project dependencies by running:
+
+```bash
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Running the Development Server
+
+Start the development server with:
+
+```bash
+npm run dev
+```
+
+### Building the Project
+
+Build the project for production using:
+
+```bash
+npm run build
+```
+
+### Running End-to-End Tests
+
+To run end-to-end tests and view actions in the browser:
+
+```bash
+npm run test:e2e:open
+```
+
+To run end-to-end tests and see only the results:
+
+```bash
+npm run test:e2e
+```
+
+### Running Integration Tests
+
+Execute integration tests with:
+
+```bash
+npm run test:integrate
+```
+
+## Contributing
+
+Feel free to contribute by opening issues or creating pull requests.
+
+## License
+
+This project is licensed under the [LICENSE NAME] - see the [LICENSE.md](LICENSE.md) file for details.
+```
+
+Make sure to replace `[LICENSE NAME]` with the appropriate license for your project and include the license file if necessary.
