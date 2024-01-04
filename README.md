@@ -3,6 +3,7 @@
 This project is built using React, TypeScript, Tailwind CSS, and React Query. Mock APIs have been implemented using the MSW library, and end-to-end tests are written using Cypress. Additionally, integration tests have been implemented using Jest.
 
 ### Project Setup:
+Make sure you have Node.js and npm installed on your machine.
 
 1. **Install Dependencies:**
    ```bash
