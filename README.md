@@ -37,31 +37,6 @@ This project is built using React, TypeScript, Tailwind CSS, and React Query. Mo
    npm run test:integrate
    ```
 
-### Sample README.md File:
-
-```markdown
-# Project Name
-
-## Overview
-
-This project is a web application developed using React, TypeScript, Tailwind CSS, and React Query. It includes mock APIs implemented with the MSW library and features end-to-end tests using Cypress, as well as integration tests using Jest.
-
-## Getting Started
-
-Follow the steps below to set up and run the project on your local machine.
-
-### Prerequisites
-
-Make sure you have Node.js and npm installed on your machine.
-
-### Installation
-
-Install project dependencies by running:
-
-```bash
-npm install
-```
-
 ### Running the Development Server
 
 Start the development server with:
